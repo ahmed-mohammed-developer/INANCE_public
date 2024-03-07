@@ -201,7 +201,27 @@ body {
                     }
                }
      }
-}
+     }
+     .h1-pro {
+          color: $main-color;
+          font-weight: bold;
+          margin-bottom: 25px;
+     }
+     .p-text {
+          font-weight: bold;
+          line-height: 28px;
+          margin-bottom: 25px;
+     }
+     .btn-pro {
+               width: fit-content;
+               padding: 10px 45px;
+               background-color: #ff8a1d !important;
+               border: 1px solid #ff8a1d !important;
+               border-radius: 5px;
+               color: #ffffff !important;
+               margin-top: 15px;
+               margin-bottom: 15px;
+     }
 }
 
 @media (max-width: 815px) {
