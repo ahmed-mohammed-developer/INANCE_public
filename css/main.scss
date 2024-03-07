@@ -112,21 +112,26 @@ body {
           font-weight: bold;
           margin-top: 50px;
      }
-     .number-cont {
-          margin-top: 50px;
-          text-align: center;
-          border: 1px solid $main-color;
-          border-radius: 10px;
-          padding: 10px 10px;
-          h2{
-               color: $main-color;
-               font-weight: bold;
-          }
-          p {
-               font-weight: bold;
-               font-size: 25px;
+     .margin-num {
+         max-width: 300px;
+         margin: auto;
+          .number-cont {
+               margin-top: 50px;
+               text-align: center;
+               border: 1px solid $main-color;
+               border-radius: 10px;
+               padding: 10px 10px;
+               h2{
+                    color: $main-color;
+                    font-weight: bold;
+               }
+               p {
+                    font-weight: bold;
+                    font-size: 25px;
+               }
           }
      }
+   
 }
 @media (max-width: 815px) {
      .tit {

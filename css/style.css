@@ -112,18 +112,22 @@ body {
   font-weight: bold;
   margin-top: 50px;
 }
-.numbers .number-cont {
+.numbers .margin-num {
+  max-width: 300px;
+  margin: auto;
+}
+.numbers .margin-num .number-cont {
   margin-top: 50px;
   text-align: center;
   border: 1px solid #0355cc;
   border-radius: 10px;
   padding: 10px 10px;
 }
-.numbers .number-cont h2 {
+.numbers .margin-num .number-cont h2 {
   color: #0355cc;
   font-weight: bold;
 }
-.numbers .number-cont p {
+.numbers .margin-num .number-cont p {
   font-weight: bold;
   font-size: 25px;
 }
