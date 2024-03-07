@@ -103,6 +103,31 @@ body {
   color: #ffffff;
 }
 
+.numbers {
+  background-color: #d1e3ff;
+  padding-block: 50px;
+}
+.numbers h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+.numbers .number-cont {
+  margin-top: 50px;
+  text-align: center;
+  border: 1px solid #0355cc;
+  border-radius: 10px;
+  padding: 10px 10px;
+}
+.numbers .number-cont h2 {
+  color: #0355cc;
+  font-weight: bold;
+}
+.numbers .number-cont p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
 @media (max-width: 815px) {
   .tit h1 {
     font-size: 2rem !important;
