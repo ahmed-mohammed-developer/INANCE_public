@@ -68,6 +68,41 @@ body {
   max-width: 80%;
 }
 
+.features {
+  margin-block: 50px;
+}
+.features .features-one {
+  text-align: center;
+  padding: 45px 10px;
+  background-color: #ffffff;
+  color: #555089;
+  transition: all 0.3s;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 5px;
+}
+.features .features-one:hover {
+  background-color: #ff8a1d;
+  color: #ffffff;
+}
+.features .features-one img {
+  width: 100px;
+  height: 100px;
+  max-height: 100%;
+  transition: all 0.3s;
+}
+.features .features-one p {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.features .back {
+  background-color: #ff8a1d;
+}
+.features .back p {
+  color: #ffffff;
+}
+
 @media (max-width: 815px) {
   .tit h1 {
     font-size: 2rem !important;
