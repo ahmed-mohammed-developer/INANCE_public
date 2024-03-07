@@ -132,6 +132,74 @@ body {
   font-size: 25px;
 }
 
+.about {
+  margin-block: 50px;
+}
+.about h1 {
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.about p {
+  max-width: 90%;
+  margin-bottom: 35px;
+  line-height: 29px;
+  font-weight: bold;
+}
+.about .about-btn {
+  background-color: #0355cc !important;
+  color: #ffffff !important;
+  border-color: #0355cc !important;
+  width: 100px !important;
+  margin-bottom: 50px;
+}
+.about img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.problem {
+  padding-block: 50px;
+  background-color: #d1e3ff;
+}
+.problem .pro-box ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s ease !important;
+}
+.problem .pro-box ul li {
+  padding: 10px 25px;
+  background-color: #0355cc;
+  border-bottom: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.problem .pro-box ul li:hover {
+  background-color: #ffffff;
+  color: #0355cc;
+}
+.problem .pro-box ul .active {
+  background-color: #ffffff;
+  color: #0355cc;
+}
+.problem .pro-box .content {
+  background-color: #ffffff;
+  color: #0355cc;
+  padding: 10px 25px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  width: fit-content !important;
+}
+.problem .pro-box .content p {
+  padding-block: 10px;
+}
+.problem .pro-box .content p:not(:first-child) {
+  display: none;
+}
+
 @media (max-width: 815px) {
   .tit h1 {
     font-size: 2rem !important;
@@ -151,6 +219,13 @@ body {
   }
   .mail {
     font-size: 15px;
+  }
+  .problem li {
+    padding: 10px 5px !important;
+    font-size: 16px !important;
+  }
+  .problem .content p {
+    font-size: 10px !important;
   }
 }
 
